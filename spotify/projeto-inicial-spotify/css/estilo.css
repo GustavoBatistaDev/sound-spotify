@@ -1,0 +1,208 @@
+
+*{
+    outline: none !important;
+    text-decoration: none !important;
+
+
+}
+html, body, #home{
+    height: 100%;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+                }
+
+
+
+
+
+#main-nav{
+    background: rgba(0,0,0,0.6);
+    padding: 15px 0px;
+}
+
+#main-navbar .navbar-nav .nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+#main-navbar .navbar-nav .nav-link:hover{
+    color: #9bf0e1 !important;
+}
+
+#icon-burguer{
+    border-color: rgba(255, 255, 255, .1);
+}
+
+#division{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.capa{
+    text-align: center;
+}
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.09em;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+h2{
+   font-size: 3em;
+   font-weight: 700;
+   letter-spacing: -0.04em;
+}
+
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+ }
+
+ #services h2, h3{
+
+   color: #7c25f8 !important;
+ }
+
+ 
+#recursos h3{
+    color: #9bf0e1 !important;
+
+}
+
+#recursos h2{
+    color: white;
+
+}
+
+#title-content{
+    color: #7a1deb;
+    font-size: 4em;
+ }
+
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 3em;
+    }
+    
+  
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        font-size: 3em;
+    }
+  
+  
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1{
+        font-size: 4em;
+    }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 5em;
+    }
+ }
+
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 6em;
+    }
+ }
+
+ .btn-custom{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s ;
+    padding: 10px 20px;
+
+ }
+
+ .btn-1{
+    background-color: #7c25f8;
+ }
+
+.btn-1:hover{
+    background-color: #6207e3;  
+    color: white;
+}
+
+ .btn-2{
+    border: 2px solid white;
+    color: black;
+ }
+
+ .btn-2:hover{
+    background-color: white;
+    color: black;
+ }
+
+
+ #services{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ #recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ .albums{
+    padding: 10px 0px;
+ }
+
+ .rotate{
+    transform: rotate(30deg);
+    padding-left: 90px ;
+    padding-bottom: 60px;
+ }
+
+ #footer{
+    background-color: black;
+    padding: 50px 0px 20px 0;
+    position: relative;
+ }
+
+
+
+ ul li a{
+    color: white;
+ }
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px !important;
+}
+
+
+ footer h6{
+    color: #919496 !important;
+    font-size: 0.8em;
+    text-transform: uppercase;
+ }
+
